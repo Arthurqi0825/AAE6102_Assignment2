@@ -9,7 +9,10 @@
 
      Differential GNSS Positioning Write a short essay (500–1000 words) comparing the pros and cons for the following GNSS techniques: Differential GNSS (DGNSS), Real-Time Kinematic (RTK), Precise Point Positioning (PPP), and PPP-RTK for **smartphone navigation.
 
-
+```
+Model:ChatGPT - 4o
+URL: https://chatgpt.com/share/680f8c47-ac90-8005-b994-6c1cca11be96
+```
 Various localization techniques have been developed to enhance positioning accuracy for Global Navigation Satellite System (GNSS), including Differential GNSS (DGNSS), Real-Time Kinematic (RTK), Precise Point Positioning (PPP), and PPP-RTK. In recent years, smartphone navigation has become an integral part of daily life, assisting people on many perspectives from pedestrian guidance to autonomous vehicle operations. Achieving high-precision positioning on smartphones, however, remains challenging due to size of smart phone and hardware limitations. This part will compare the existing navigation methods on smartphone. 
 
 ## Differential GNSS(D-GNSS)
@@ -129,7 +132,7 @@ where $\sigma_r^2$ is the estimated variance of the residuals, normalized by the
 d. Detection Threshold
 
 Fault detection is performed using a chi-square test with the threshold derived from a chi-square distribution table:
-- For a false alarm probability $ P_{fa} = 10^{-2}$, using statistic table
+- For a false alarm probability $P_{fa} = 10^{-2}$, using statistic table
 - For a missed detection probability $P_{md} = 10^{-7}$, using 5.33 $\sigma$:
 
 
@@ -170,7 +173,7 @@ These plots provide insights into the satellite geometry, test statistics, and p
 ```
 
 - mode: ChatGPT - 4o
-- URL: https://chatgpt.com/share/680f8c47-ac90-8005-b994-6c1cca11be96
+- URL: https://chatgpt.com/share/6810dac6-9e2c-8005-bc75-fa6962ae7ee7
 ```
 
 | **Challenge** | **Simple Explanation** |
