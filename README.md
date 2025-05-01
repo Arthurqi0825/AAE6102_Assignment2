@@ -69,7 +69,7 @@ Nevertheless, smartphone hardware presents serious limitations for PPP-RTK. Stud
 - Importing data from `NavSolution_Urban.mat` in Assignment 1
 - Adding information from Sky mask information to assist on the localization
 
-<img src= https://github.com/Arthurqi0825/AAE6102_Assignment2/blob/main/Q2/skymask.jpg alt="Skymask" width=500 height=350>
+<!-- <img src= https://github.com/Arthurqi0825/AAE6102_Assignment2/blob/main/Q2/skymask.jpg alt="Skymask" width=500 height=350> -->
 
 And plotting the result:
 <img src= https://github.com/Arthurqi0825/AAE6102_Assignment2/blob/main/Q2/result.jpg alt="Result" width=500 height=350>
@@ -149,19 +149,7 @@ While the algorithm detects faults, an exclusion step (removing faulty measureme
 
 ### Protection Level (PL) Computation
 
-a. Calculation of Protection Level
-
-The Protection Level (PL) provides an upper bound on the possible positioning error under the integrity constraints. It is computed as:
-
-$$
-\text{PL} = k \cdot \sigma
-$$
-
-where \(k\) is derived based on the missed detection probability \(P_{md} = 10^{-7}\), and \(\sigma\) represents the standard deviation of pseudorange errors, configured as 3 meters.
-
-b. Threshold and Alarm Limit
-
-The protection level must be compared to the predefined Horizontal Alert Limit (HAL) of 50 meters. If the computed PL exceeds HAL, the integrity of the navigation solution is not assured.
+Based on the calculation, the final Protection Level(PL) is *85.122m*
 
 ### Visualization and Stanford Chart Analysis
 
@@ -224,7 +212,7 @@ These plots provide insights into the satellite geometry, test statistics, and p
 
 ```
 Model: ChatGPT - 4o
-URL: 
+URL: https://chatgpt.com/share/6812f888-5130-8005-8508-0274344b572b
 ```
 Global Navigation Satellite Systems (GNSS) are most widely recognized for their roles in positioning, navigation, and timing. However, over the past few decades, GNSS technology has also emerged as a transformative tool in the field of remote sensing. GNSS remote sensing leverages signals transmitted from navigation satellites and their interactions with the Earth's atmosphere, land, and oceans to retrieve valuable environmental information. Among the various GNSS-based remote sensing techniques, GNSS Reflectometry (GNSS-R) stands out as an innovative and rapidly growing method, offering unique capabilities for global environmental monitoring.
 
